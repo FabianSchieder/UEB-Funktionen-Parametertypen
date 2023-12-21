@@ -21,7 +21,7 @@ int calculateArraySum(int arr[], int size)
 
     for (int i = 0; i < size; ++i)
     {
-        sum += arr[i];
+        sum += arr.at(i);
     }
 
     return sum;
